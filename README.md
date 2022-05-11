@@ -21,10 +21,8 @@ $ yarn add custom-gulp
 
 <!-- TODO: Introduction of Usage -->
 
-```javascript
-const customGulp = require('custom-gulp')
-const result = customGulp('w')
-// result => 'w@zce.me'
+```shell
+custp
 ```
 
 ## API
@@ -64,8 +62,6 @@ const result = customGulp('w')
 ## License
 
 [MIT](LICENSE) &copy; [Alice Chan](https://github.com/AloneSet)
-
-
 
 [license-img]: https://img.shields.io/github/license/AloneSet/custom-gulp
 [license-url]: https://github.com/AloneSet/custom-gulp/blob/master/LICENSE
