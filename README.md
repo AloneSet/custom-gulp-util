@@ -22,7 +22,11 @@ $ yarn add custom-gulp
 <!-- TODO: Introduction of Usage -->
 
 ```shell
-custp
+$ custom-gulp clean
+
+$ custom-gulp develop
+
+$ custom-gulp build
 ```
 
 ## API
