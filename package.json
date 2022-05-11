@@ -1,0 +1,35 @@
+{
+  "name": "custom-gulp",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "custom-gulp",
+    "zce"
+  ],
+  "repository": "AloneSet/custom-gulp",
+  "license": "MIT",
+  "author": "Alice Chan <2208523599@qq.com> (https://github.com/AloneSet)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
